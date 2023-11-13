@@ -113,15 +113,15 @@
 
 @media (max-width: 767.99px) {
 
-    .review__card-3{
+   /*   .review__card-3{
        width: 500px;
-    }
+    } */
     .review__card-2{
        display: none;
     }
 
     .review__dscr-2{
-        margin-left: 20px;
+        width: auto;
     }
 
 
@@ -270,13 +270,13 @@
         margin-right: 20px;
    }
 
-   .review__title-control{
+  /*  .review__title-control{
     padding: 0px;
    }
 
    .review__title-control{
     margin-top: 50px;
-   }
+   } */
 
    
 
@@ -296,8 +296,6 @@
         left: -85px;
         z-index: 6;
         background-color: aliceblue;
-
-
     }
 
     .dropdown__links{
@@ -369,20 +367,19 @@
     }
 
     .auction__content{
-        margin-top: -120px;
-        margin-right: 20px;
+        /*       */
+        
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 390px;
-        height: 411px;
+        max-width: 390px;
+        width: 100%;
         z-index: 0;
         
     }
 
     .main__top-backround{
-        width: 430px;
         height: 587px;
         flex-shrink: 0;
     }
@@ -396,25 +393,26 @@
     }
 
     .main__form input{
-        width: 350px;
-        height: 36px;
+        width: 320px;
         
     }
 
     .main__form button{
-        width: 350px;
-        height: 36px;
+        max-width: 320px;
+        
        
     }
 
     .auction__title{
         font-size: 15px;
-        width: 350px;
+        max-width: 320px;
+        width: 100%;
     }
 
     .service__title{
-        padding: 60px 48px 32px 48px;
-        width: 334px;
+        padding: 60px 0px 32px 48px;
+        max-width: 320px;
+        width: 100%;
         color: #000;
     text-align: center;
     font-size: 27px;
@@ -541,7 +539,7 @@
    }
 
    
-
+/* 
    .review__card-3{
     width: 390px;
     height: 267px;
@@ -565,7 +563,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-   }
+   } */
  
    .footer__logo-content{
     display: flex;
